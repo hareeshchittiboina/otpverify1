@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: orangered;
+    background-size: cover;
+}
+
+h1 {
+    line-height: 60px;
+    text-align: center;
+}
+
+.enterotp {
+    text-align: center;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.otpbox {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    background-color: grey;
+    height: 20px;
+    width: 20px;
+
+}
+.img-class{
+    margin-left: 1%;
+}
+.otp {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+}
+
+button {
+    line-height: 20px;
+    margin-top: 40px;
+    background-color: hotpink;
+    width: 80px;
+    border: none;
+    border-radius: 15px;
+  
+    padding: 8px;
+}
